@@ -10,7 +10,7 @@ function Auth(props) {
   return (
     <div>
       This is Auth
-      <button onClick={fireReduxAction}>click here to see action</button>
+      <button onClick={fireReduxAction}>click here to setup redux-saga</button>
     </div>
   );
 }

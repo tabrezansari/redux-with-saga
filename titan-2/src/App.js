@@ -7,7 +7,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>Titan - 2 Initial Setup</p>
+        <p>Titan - 2 Initial Code-Base Setup</p>
       </header>
       <Auth />
     </div>
