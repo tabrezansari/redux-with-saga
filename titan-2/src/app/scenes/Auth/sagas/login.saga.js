@@ -2,15 +2,10 @@ import { call, put } from "redux-saga/effects";
 
 import { loginUserService } from "../services/auth.service";
 
-export function* loginFlow(data) {
+export function* loginFlow() {
   try {
-    const response = yield call(loginUserService, data.payload);
-
-    return response;
+    console.log("watcher called login flow after catching the action ");
   } catch (error) {
-    yield put({
-      type: "TRIGGER_TOAST_MESSAGE",
-      payload: { message: "Something went wrong" }
-    });
+    console.log("oops someting went wrong");
   }
 }
