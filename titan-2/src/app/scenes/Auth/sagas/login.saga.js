@@ -1,7 +1,6 @@
 import { call, put } from "redux-saga/effects";
 
-import { loginUserService } from "../services/auth.service";
-import { AUTH_ACTION_LOGIN_REQUEST } from "../auth.constants";
+import { AUTH_ACTION_LOGIN_REQUEST } from "../redux/auth.constants";
 export function* loginFlow(data) {
   try {
     yield put({ type: AUTH_ACTION_LOGIN_REQUEST, payload: data });

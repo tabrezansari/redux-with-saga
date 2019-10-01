@@ -1,7 +1,7 @@
 import React from "react";
 import { connect } from "react-redux";
 import { bindActionCreators } from "redux";
-import { simpleFlow } from "./actions/login.action";
+import { simpleFlow } from "./redux/auth.actions";
 function Auth(props) {
   const fireReduxAction = () => {
     console.log("firing action to redux ");

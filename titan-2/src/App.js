@@ -1,7 +1,7 @@
 import React from "react";
 import logo from "./logo.svg";
 import "./App.css";
-import Auth from "./app/scenes/Auth/Auth";
+import Auth from "./app/scenes/Auth";
 function App() {
   return (
     <div className="App">
